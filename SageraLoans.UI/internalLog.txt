@@ -1,0 +1,311 @@
+2021-03-12 07:51:36.6423 Info Message Template Auto Format enabled
+2021-03-12 07:51:36.6589 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 07:51:36.7159 Info Adding target FileTarget(Name=alldata)
+2021-03-12 07:51:36.7159 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 07:51:36.7597 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\Nagato\Desktop\SageraLoans\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 07:51:36.7890 Info Configuration initialized.
+2021-03-12 07:51:36.7890 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 07:54:05.7381 Info Message Template Auto Format enabled
+2021-03-12 07:54:05.7492 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 07:54:05.8002 Info Adding target FileTarget(Name=alldata)
+2021-03-12 07:54:05.8084 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 07:54:05.8328 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\Nagato\Desktop\SageraLoans\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 07:54:05.8536 Info Configuration initialized.
+2021-03-12 07:54:05.8536 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:00:15.5168 Info Message Template Auto Format enabled
+2021-03-12 10:00:15.5168 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:00:15.5813 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:00:15.5813 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:00:15.6175 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:00:15.6411 Info Configuration initialized.
+2021-03-12 10:00:15.6411 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:02:48.4144 Info Message Template Auto Format enabled
+2021-03-12 10:02:48.4213 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:02:48.4618 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:02:48.4618 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:02:48.4848 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:02:48.4985 Info Configuration initialized.
+2021-03-12 10:02:48.4985 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:02:49.0926 Info AppDomain Shutting down. Logger closing...
+2021-03-12 10:02:49.1067 Info Logger has been shut down.
+2021-03-12 10:02:53.9307 Info Message Template Auto Format enabled
+2021-03-12 10:02:53.9373 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:02:53.9844 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:02:53.9844 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:02:54.0081 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:02:54.0223 Info Configuration initialized.
+2021-03-12 10:02:54.0223 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:02:54.6219 Info AppDomain Shutting down. Logger closing...
+2021-03-12 10:02:54.6340 Info Logger has been shut down.
+2021-03-12 10:03:03.3180 Info Message Template Auto Format enabled
+2021-03-12 10:03:03.3257 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:03:03.3657 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:03:03.3657 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:03:03.3932 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:03:03.4074 Info Configuration initialized.
+2021-03-12 10:03:03.4074 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:03:04.3071 Info AppDomain Shutting down. Logger closing...
+2021-03-12 10:03:04.3208 Info Logger has been shut down.
+2021-03-12 10:04:16.7387 Info Message Template Auto Format enabled
+2021-03-12 10:04:16.7483 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:04:16.8100 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:04:16.8100 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:04:16.8428 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:04:16.8627 Info Configuration initialized.
+2021-03-12 10:04:16.8627 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:06:22.6961 Info Message Template Auto Format enabled
+2021-03-12 10:06:22.7098 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:06:22.7775 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:06:22.7799 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:06:22.8274 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:06:22.8505 Info Configuration initialized.
+2021-03-12 10:06:22.8505 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:10:11.3930 Info Message Template Auto Format enabled
+2021-03-12 10:10:11.4040 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:10:11.4669 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:10:11.4669 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:10:11.4962 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:10:11.5204 Info Configuration initialized.
+2021-03-12 10:10:11.5204 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:11:13.8050 Info Message Template Auto Format enabled
+2021-03-12 10:11:13.8129 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:11:13.8571 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:11:13.8571 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:11:13.8837 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:11:13.8980 Info Configuration initialized.
+2021-03-12 10:11:13.8980 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:11:14.5140 Info AppDomain Shutting down. Logger closing...
+2021-03-12 10:11:14.5140 Info Logger has been shut down.
+2021-03-12 10:11:16.4199 Info Message Template Auto Format enabled
+2021-03-12 10:11:16.4199 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:11:16.4661 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:11:16.4661 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:11:16.4905 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:11:16.5055 Info Configuration initialized.
+2021-03-12 10:11:16.5055 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:11:17.0972 Info AppDomain Shutting down. Logger closing...
+2021-03-12 10:11:17.1087 Info Logger has been shut down.
+2021-03-12 10:11:23.4662 Info Message Template Auto Format enabled
+2021-03-12 10:11:23.4662 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:11:23.5138 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:11:23.5138 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:11:23.5372 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:11:23.5510 Info Configuration initialized.
+2021-03-12 10:11:23.5510 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:11:24.4495 Info AppDomain Shutting down. Logger closing...
+2021-03-12 10:11:24.4629 Info Logger has been shut down.
+2021-03-12 10:11:57.3869 Info Message Template Auto Format enabled
+2021-03-12 10:11:57.3972 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:11:57.4501 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:11:57.4521 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:11:57.4810 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:11:57.4999 Info Configuration initialized.
+2021-03-12 10:11:57.4999 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:15:18.7852 Info Message Template Auto Format enabled
+2021-03-12 10:15:18.7951 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:15:18.8383 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:15:18.8409 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:15:18.8623 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:15:18.8771 Info Configuration initialized.
+2021-03-12 10:15:18.8771 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:15:19.5714 Info AppDomain Shutting down. Logger closing...
+2021-03-12 10:15:19.5861 Info Logger has been shut down.
+2021-03-12 10:15:21.4737 Info Message Template Auto Format enabled
+2021-03-12 10:15:21.4737 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:15:21.5241 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:15:21.5241 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:15:21.5481 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:15:21.5634 Info Configuration initialized.
+2021-03-12 10:15:21.5634 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:15:22.1625 Info AppDomain Shutting down. Logger closing...
+2021-03-12 10:15:22.1753 Info Logger has been shut down.
+2021-03-12 10:15:27.6594 Info Message Template Auto Format enabled
+2021-03-12 10:15:27.6594 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:15:27.7031 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:15:27.7031 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:15:27.7259 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:15:27.7427 Info Configuration initialized.
+2021-03-12 10:15:27.7427 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:15:28.5536 Info AppDomain Shutting down. Logger closing...
+2021-03-12 10:15:28.5656 Info Logger has been shut down.
+2021-03-12 10:15:43.5091 Info Message Template Auto Format enabled
+2021-03-12 10:15:43.5239 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:15:43.6078 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:15:43.6078 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:15:43.6451 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:15:43.6598 Info Configuration initialized.
+2021-03-12 10:15:43.6598 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:17:40.7671 Info Message Template Auto Format enabled
+2021-03-12 10:17:40.7671 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:17:40.8216 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:17:40.8216 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:17:40.8461 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:17:40.8606 Info Configuration initialized.
+2021-03-12 10:17:40.8606 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:17:41.5352 Info AppDomain Shutting down. Logger closing...
+2021-03-12 10:17:41.5501 Info Logger has been shut down.
+2021-03-12 10:18:29.1865 Info Message Template Auto Format enabled
+2021-03-12 10:18:29.1865 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:18:29.2388 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:18:29.2388 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:18:29.2616 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:18:29.2758 Info Configuration initialized.
+2021-03-12 10:18:29.2758 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:18:29.8810 Info AppDomain Shutting down. Logger closing...
+2021-03-12 10:18:29.8933 Info Logger has been shut down.
+2021-03-12 10:18:45.7150 Info Message Template Auto Format enabled
+2021-03-12 10:18:45.7212 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:18:45.7630 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:18:45.7630 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:18:45.7856 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:18:45.7999 Info Configuration initialized.
+2021-03-12 10:18:45.7999 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:18:46.6723 Info AppDomain Shutting down. Logger closing...
+2021-03-12 10:18:46.6874 Info Logger has been shut down.
+2021-03-12 10:19:01.0796 Info Message Template Auto Format enabled
+2021-03-12 10:19:01.0796 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:19:01.1457 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:19:01.1457 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:19:01.1844 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:19:01.2159 Info Configuration initialized.
+2021-03-12 10:19:01.2159 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:30:35.7473 Info Message Template Auto Format enabled
+2021-03-12 10:30:35.7571 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:30:35.8114 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:30:35.8114 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:30:35.8512 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:30:35.8733 Info Configuration initialized.
+2021-03-12 10:30:35.8733 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:33:04.0283 Info Message Template Auto Format enabled
+2021-03-12 10:33:04.0283 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:33:04.0819 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:33:04.0819 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:33:04.1088 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:33:04.1254 Info Configuration initialized.
+2021-03-12 10:33:04.1254 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:35:29.8592 Info Message Template Auto Format enabled
+2021-03-12 10:35:29.8592 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:35:29.9173 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:35:29.9200 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:35:29.9462 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:35:29.9650 Info Configuration initialized.
+2021-03-12 10:35:29.9664 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:42:48.9947 Info Message Template Auto Format enabled
+2021-03-12 10:42:49.0040 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:42:49.0662 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:42:49.0662 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:42:49.0952 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:42:49.1127 Info Configuration initialized.
+2021-03-12 10:42:49.1127 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-12 10:51:56.5100 Info Message Template Auto Format enabled
+2021-03-12 10:51:56.5204 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-12 10:51:56.5792 Info Adding target FileTarget(Name=alldata)
+2021-03-12 10:51:56.5792 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-12 10:51:56.6081 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-12 10:51:56.6258 Info Configuration initialized.
+2021-03-12 10:51:56.6258 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-17 10:08:03.9349 Info Message Template Auto Format enabled
+2021-03-17 10:08:03.9561 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-17 10:08:04.0642 Info Adding target FileTarget(Name=alldata)
+2021-03-17 10:08:04.0642 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-17 10:08:04.1255 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-17 10:08:04.1689 Info Configuration initialized.
+2021-03-17 10:08:04.1689 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-17 10:26:36.6190 Info Message Template Auto Format enabled
+2021-03-17 10:26:36.6310 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-17 10:26:36.6867 Info Adding target FileTarget(Name=alldata)
+2021-03-17 10:26:36.6867 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-17 10:26:36.7184 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-17 10:26:36.7363 Info Configuration initialized.
+2021-03-17 10:26:36.7363 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-17 10:29:05.9610 Info Message Template Auto Format enabled
+2021-03-17 10:29:05.9725 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-17 10:29:06.0370 Info Adding target FileTarget(Name=alldata)
+2021-03-17 10:29:06.0370 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-17 10:29:06.0972 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-17 10:29:06.1288 Info Configuration initialized.
+2021-03-17 10:29:06.1288 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-17 10:39:24.8825 Info Message Template Auto Format enabled
+2021-03-17 10:39:24.8931 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-17 10:39:24.9652 Info Adding target FileTarget(Name=alldata)
+2021-03-17 10:39:24.9652 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-17 10:39:25.0004 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-17 10:39:25.0204 Info Configuration initialized.
+2021-03-17 10:39:25.0204 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-17 10:40:16.3514 Info Message Template Auto Format enabled
+2021-03-17 10:40:16.3600 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-17 10:40:16.4158 Info Adding target FileTarget(Name=alldata)
+2021-03-17 10:40:16.4195 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-17 10:40:16.4537 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-17 10:40:16.4726 Info Configuration initialized.
+2021-03-17 10:40:16.4726 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-17 10:43:34.6052 Info Message Template Auto Format enabled
+2021-03-17 10:43:34.6052 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-17 10:43:34.6854 Info Adding target FileTarget(Name=alldata)
+2021-03-17 10:43:34.6854 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-17 10:43:34.7289 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-17 10:43:34.7482 Info Configuration initialized.
+2021-03-17 10:43:34.7482 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-17 11:09:13.0108 Info Message Template Auto Format enabled
+2021-03-17 11:09:13.0280 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-17 11:09:13.1111 Info Adding target FileTarget(Name=alldata)
+2021-03-17 11:09:13.1111 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-17 11:09:13.1652 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-17 11:09:13.1954 Info Configuration initialized.
+2021-03-17 11:09:13.1954 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-19 10:26:25.1619 Info Message Template Auto Format enabled
+2021-03-19 10:26:25.1760 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-19 10:26:25.2323 Info Adding target FileTarget(Name=alldata)
+2021-03-19 10:26:25.2323 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-19 10:26:25.2622 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-19 10:26:25.2813 Info Configuration initialized.
+2021-03-19 10:26:25.2813 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-19 10:28:00.8666 Info Message Template Auto Format enabled
+2021-03-19 10:28:00.8782 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-19 10:28:00.9290 Info Adding target FileTarget(Name=alldata)
+2021-03-19 10:28:00.9290 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-19 10:28:00.9632 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-19 10:28:00.9911 Info Configuration initialized.
+2021-03-19 10:28:00.9911 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-19 19:43:18.2404 Info Message Template Auto Format enabled
+2021-03-19 19:43:18.2621 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-19 19:43:18.3780 Info Adding target FileTarget(Name=alldata)
+2021-03-19 19:43:18.3780 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-19 19:43:18.4382 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-19 19:43:18.4734 Info Configuration initialized.
+2021-03-19 19:43:18.4734 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-20 11:50:30.7668 Info Message Template Auto Format enabled
+2021-03-20 11:50:30.7805 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-20 11:50:30.8520 Info Adding target FileTarget(Name=alldata)
+2021-03-20 11:50:30.8551 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-20 11:50:30.8865 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-20 11:50:30.9049 Info Configuration initialized.
+2021-03-20 11:50:30.9049 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-20 11:51:10.0503 Info Message Template Auto Format enabled
+2021-03-20 11:51:10.0599 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-20 11:51:10.1237 Info Adding target FileTarget(Name=alldata)
+2021-03-20 11:51:10.1237 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-20 11:51:10.1561 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-20 11:51:10.1768 Info Configuration initialized.
+2021-03-20 11:51:10.1768 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-20 11:52:07.3978 Info Message Template Auto Format enabled
+2021-03-20 11:52:07.4245 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-20 11:52:07.4793 Info Adding target FileTarget(Name=alldata)
+2021-03-20 11:52:07.4816 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-20 11:52:07.5152 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-20 11:52:07.5338 Info Configuration initialized.
+2021-03-20 11:52:07.5338 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-03-20 15:59:42.5268 Info Message Template Auto Format enabled
+2021-03-20 15:59:42.5268 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-20 15:59:42.6028 Info Adding target FileTarget(Name=alldata)
+2021-03-20 15:59:42.6028 Info Adding target FileTarget(Name=otherFile-web)
+2021-03-20 15:59:42.6408 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-03-20 15:59:42.6622 Info Configuration initialized.
+2021-03-20 15:59:42.6622 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False
+2021-04-27 10:13:14.4355 Info Message Template Auto Format enabled
+2021-04-27 10:13:14.4520 Info Loading assembly: NLog.Web.AspNetCore
+2021-04-27 10:13:14.5619 Info Adding target FileTarget(Name=alldata)
+2021-04-27 10:13:14.5661 Info Adding target FileTarget(Name=otherFile-web)
+2021-04-27 10:13:14.6096 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=C:\Users\hp\Desktop\Dev env\LoanAppProject\week-9-task-group-c\SageraLoans.UI\bin\Debug\netcoreapp3.1\NLog.config
+2021-04-27 10:13:14.6493 Info Configuration initialized.
+2021-04-27 10:13:14.6493 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.8.12686. Product version: 4.7.8+1a738710a3e2974972abafd94d9df40f6b58035f. GlobalAssemblyCache: False

@@ -1,0 +1,75 @@
+[
+  {
+    "Id": "45be5aab-27f9-42d0-a3e5-7a57cea09849",
+    "CompanyName": "ENDICIL",
+    "Description": "We believe in treating our partners with respect and dignity. We are proud to offer several landmark programs for our partners, including comprehensive health coverage",
+    "Loans": [
+      {
+        "Id": "656b77b7-306e-49cc-9b5b-df035b27417c",
+        "LoanCategoryId": "2e43f393-e6c2-426a-9ba7-ae5e598f9544",
+        "InterestRate": "5%",
+        "Moratorium": "2years",
+        "MinimumAmount": "2669093",
+        "MaximumAmount": "16677386"
+      },
+      {
+        "Id": "bdeb78d8-ac2c-4c18-b3a3-eb419b3408ed",
+        "LoanCategoryId": "03e23e80-5c67-4c18-a2f1-da897471f64f",
+        "InterestRate": "8%",
+        "Moratorium": "2years",
+        "MinimumAmount": "3976687",
+        "MaximumAmount": "46064761"
+
+      }
+    ]
+  },
+  {
+    "Id": "f8095b01-3708-4ba3-ba28-c0e62f46702d",
+    "CompanyName": "QUAREX",
+    "Description": "We believe in treating our partners with respect and dignity. We are proud to offer several landmark programs for our partners, including comprehensive health coverage",
+    "Loans": [
+      {
+        "Id": "e13e9924-875e-44e1-91b9-6d95ae9829b9",
+        "LoanCategoryId": "5995e6e1-a72b-42c8-983a-998e51de0a57",
+        "InterestRate": "6%",
+        "Moratorium": "3years",
+        "MinimumAmount": "2031521",
+        "MaximumAmount": "16021218"
+
+      }
+    ]
+  },
+  {
+    "Id": "52b659cb-a9dd-4b3d-b696-b873e8ec6361",
+    "CompanyName": "FLUMBO",
+    "Description": "We believe in treating our partners with respect and dignity. We are proud to offer several landmark programs for our partners, including comprehensive health coverage",
+    "Loans": [
+      {
+        "Id": "9828f37f-13a9-4b45-b50d-cd0dabb8c581",
+        "LoanCategoryId": "ce13e586-128e-4a14-8c61-74f0900faf35",
+        "InterestRate": "2%",
+        "Moratorium": "4years",
+        "MinimumAmount": "3992518",
+        "MaximumAmount": "49231329"
+
+      }
+    ]
+  },
+  {
+    "Id": "e32a391d-9101-4fde-a190-6c895147ff3c",
+    "CompanyName": "HAIRPORT",
+    "Description": "We believe in treating our partners with respect and dignity. We are proud to offer several landmark programs for our partners, including comprehensive health coverage",
+    "Loans": [
+      {
+        "Id": "205d2416-a319-4a1e-b9b9-35101a402cbc",
+        "LoanCategoryId": "2e43f393-e6c2-426a-9ba7-ae5e598f9544",
+        "InterestRate": "6%",
+        "Moratorium": "4years",
+        "MinimumAmount": "1962981",
+        "MaximumAmount": "28437957"
+      }
+    ]
+  }
+
+
+]

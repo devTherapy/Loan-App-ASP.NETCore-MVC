@@ -1,0 +1,40 @@
+﻿@model IEnumerable<LoanViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_AdminLayout";
+}
+
+<h4>Loans</h4>
+<hr />
+
+<div class="mb-3">
+    <a asp-action="AddOrEdit" class="btn btn-outline-success"><i class="far fa-plus-square"></i> Loan</a>
+</div>
+
+
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Loan Company: @item.LoanCompany.CompanyName</h5>
+                    <p class="card-text">Loan Category: @item.LoanCategory.CategoryName</p>
+                    <p class="card-text">Range: @item.MinimumAmount - @item.MaximumAmount</p>
+                    <p class="card-text">Interest Rate: @item.InterestRate</p>
+                    <p class="card-text">Moratorium: @item.Moratorium</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a  asp-action="AddOrEdit" asp-route-id="@item.Id"><i class="fa fa-marker fa-lg"></i></a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="text-danger ml-1"
+                               onclick="return confirm('Are you sure to delete this company?')">
+                                <i class="fa fa-trash-alt fa-lg"></i>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<UserForAdminViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_AdminLayout";
+}
+
+<h4>All Users</h4>
+<hr />
+
+@if (@Model.Any())
+{
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    @*<img class="card-img-top" data-src="@item.Comp" alt="company-logo">*@
+                    <div class="card-body">
+                        <h5 class="card-title">@item.LastName, @item.FirstName</h5>
+                        <p class="card-text">@item.Role</p>
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <form asp-controller="Admin" asp-action="MakeAdmin" asp-route-id="@item.Id">
+                                    <button type="submit" class="btn btn-primary">
+                                        Make Admin
+                                    </button>
+                                </form>
+                                <form asp-controller="Admin" asp-action="DeleteUser" asp-route-id="@item.Id">
+                                    <button type="submit" class="btn btn-danger">
+                                        Delete
+                                    </button>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+}
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

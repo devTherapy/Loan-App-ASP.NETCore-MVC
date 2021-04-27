@@ -1,0 +1,41 @@
+﻿@model IEnumerable<LoanCompanyViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_AdminLayout";
+}
+
+<h4>Loan Companies</h4>
+<hr />
+
+<div class="mb-3">
+    <a asp-action="AddOrEdit" class="btn btn-outline-success"><i class="far fa-plus-square"></i> Loan Company</a>
+</div>
+
+
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        var photoPath = "~/images/" +(@item.CompanyLogo ?? "paylater.PNG");
+        <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+                <img class="icon-svg-2x" src="@photoPath" alt="company-logo" height="250" asp-append-version="true">
+                <div class="card-body">
+                    <h5 class="card-title">@item.CompanyName</h5>
+                    <p class="card-text">@item.Description</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a asp-action="AddOrEdit" asp-route-id="@item.Id"><i class="fa fa-marker fa-lg"></i></a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="text-danger ml-1"
+                               onclick="return confirm('Are you sure to delete this company?')">
+                                <i class="fa fa-trash-alt fa-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>

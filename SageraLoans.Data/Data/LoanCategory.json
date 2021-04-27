@@ -1,0 +1,18 @@
+﻿[
+  {
+    "Id": "2e43f393-e6c2-426a-9ba7-ae5e598f9544",
+    "CategoryName": "Business"
+  },
+  {
+    "Id": "ce13e586-128e-4a14-8c61-74f0900faf35",
+    "CategoryName": "Education"
+  },
+  {
+    "Id": "03e23e80-5c67-4c18-a2f1-da897471f64f",
+    "CategoryName": "Mortgage"
+  },
+  {
+    "Id": "5995e6e1-a72b-42c8-983a-998e51de0a57",
+    "CategoryName": "Car"
+  }
+]

@@ -1,0 +1,23 @@
+name: SageraLoans.CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build_ums:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build and deploy the Docker image
+        env:
+          HEROKU_API_KEY: 1d185434-85a6-4c21-9017-71b02fb25f38
+          APP_NAME: ${{ 'sagera-loans' }}
+        run: |
+          docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
+          heroku container:push web -a $APP_NAME
+          heroku container:release web -a $APP_NAME

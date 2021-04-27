@@ -1,0 +1,606 @@
+﻿@model IndexModel
+
+
+
+@{
+//ViewBag.title = "Home";
+
+    @inject SignInManager<AppUser> _signInMgr;
+    @inject UserManager<AppUser> _userMgr;
+    var userId = _userMgr.GetUserId(User);   
+
+}
+
+<div class="top-bar">
+    <!-- top-bar -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-5 col-md-4 col-sm-6 col-6 d-none d-xl-block d-lg-block">
+                <p class="mail-text">Welcome to Sagera Loans comparer website</p>
+            </div>
+            <div class="col-xl-8 col-lg-7 col-md-12 col-sm-12 col-12 text-right">
+                <div class="top-nav"> <span class="top-text"><a href="#">View Loan Categories</a> </span> <span class="top-text"><a href="#">+234-8163446333</a></span> <span class="top-text"><a href="#">+234-8188680188</a></span> </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.top-bar -->
+<div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-2 col-lg-2 col-md-12 col-sm-6 col-6">
+                <!-- logo -->
+                <div class="company-logo">
+                    <a href="#">
+                        Sagera Loans
+                    </a>
+                </div>
+            </div>
+            <!-- logo -->
+            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                <div id="navigation">
+                    <!-- navigation start-->
+
+                    <ul>
+                        <li class="active">
+                            <a href="#" class="animsition-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="animsition-link">Loan Categories  <i class="fa fa-list-alt"></i></a>
+                            <ul>
+                                @if (Model.categories.Count() > 0)
+                                {
+                                    @foreach (var category in Model.categories)
+                                    {
+                                        <li>
+                                            <a title="Car Loan" class="animsition-link">
+                                                @category.CategoryName
+                                            </a>
+                                        </li>
+                                    }
+                                }
+
+                            </ul>
+                        </li>
+                        @if (!_signInMgr.IsSignedIn(User))
+                        {
+                            <li class="active">
+                                <a asp-action="Register" asp-controller="Account" class="animsition-link">Register</a>
+                            </li>
+                        }
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="active">
+                                <a asp-action="Index" asp-controller="Admin" class="animsition-link">Admin</a>
+                            </li>
+                        }
+                        @if (_signInMgr.IsSignedIn(User))
+                        {
+                            <li class="active">
+                                <form method="post" asp-controller="Account" asp-action="Logout">
+                                    <button id="Logout-btn" class="btn btn-link animsition-link">Logout</button>
+                                </form>
+
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="active">
+                                <a asp-controller="Account" asp-action="Login" class="animsition-link">Login</a>
+                            </li>
+                        }
+
+
+
+
+                        <li class="active">
+                            <a asp-controller="Account" asp-action="Profile">Profile</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <!-- /.navigation start-->
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<div class="slider" id="slider">
+    <!-- slider -->
+    <div class="slider-img">
+        <img src="images/slider-1.jpg" alt="Sagera Loans" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="slider-captions">
+                        <!-- slider-captions -->
+                        <h1 class="slider-title">Personal Loan to Suit Your Needs. </h1>
+                        <p class="slider-text d-none d-xl-block d-lg-block d-sm-block">
+                            The low rate you need for the
+                            need you want! Call
+                            <br>
+                            <strong class="text-highlight">(+234) 813 - 777 - 8295</strong>
+                        </p>
+                    </div>
+                    <!-- /.slider-captions -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="slider-img">
+            <img src="images/slider-2.jpg" alt="Sagera Loans" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="slider-captions">
+                            <!-- slider-captions -->
+                            <h1 class="slider-title">
+                                Lowest Car Loan Rate <strong class="text-highlight">9.60%</strong>
+                            </h1>
+                            <p class="slider-text d-none d-xl-block d-lg-block d-sm-block">
+                                We provide an excellent
+                                service Loan company. Lorem ipsum simple dummy content goes here.
+                            </p>
+                        </div>
+                        <!-- /.slider-captions -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="slider-img">
+            <img src="images/slider-3.jpg" alt="Sagera Loans" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="slider-captions">
+                            <!-- slider-captions -->
+                            <h1 class="slider-title">
+                                Student Loans with Greate Rates <strong class="text-highlight">11.10%</strong>
+                            </h1>
+                            <p class="slider-text d-none d-xl-block d-lg-block d-sm-block">
+                                We provide an excellent
+                                service for all types of loans in
+                                <br> ahmedabad and offer service, advice and direction.
+                            </p>
+                        </div>
+                        <!-- /.slider-captions -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .jumbotron-logo {
+        width: 60px;
+    }
+</style>
+<!--------------------Jumbotron------------------->
+<div class="container-fluid" style="margin-top: -20px">
+    <div class="row jumbotron">
+        <div class="col-xs-12  col-sm-12 col-md-9 col-lg-9 col-xl-9 d-flex mx-auto align-items-center justify-content-between ">
+            <div>
+                <p>companies you can trust</p>
+            </div>
+            <div class="jumbotron-logo">
+                <img src="~/images/fast-credit.PNG" />
+            </div>
+            <div class="jumbotron-logo">
+                <img src="~/images/groffin.PNG" />
+            </div>
+            <div class="jumbotron-logo">
+                <img src="~/images/kikia.PNG" />
+            </div>
+            <div class="jumbotron-logo">
+                <img src="~/images/lydia.PNG" />
+            </div>
+            <div class="jumbotron-logo">
+                <img src="~/images/paylater.PNG" />
+            </div>
+            <div class="jumbotron-logo">
+
+                <img src="~/images/zedvance.PNG" />
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="section-space80">
+    <div class="container">
+        <div class="row">
+            <div class="offset-xl-2 col-xl-8 offset-md-2 col-md-8 offset-md-2 col-md-8 col-sm-12 col-12">
+                <div class="mb60 text-center section-title">
+                    <!-- section title start-->
+                    <h1>Find Loan Products We Offers</h1>
+                    <p>
+                        We will match you with a loan program that meet your financial need. In short term liquidity,
+                        by striving to make funds available to them <strong>within 24 hours of application.</strong>
+                    </p>
+                </div>
+                <!-- /.section title start-->
+            </div>
+        </div>
+
+        <!-----------------------------Loan --------------------products -----------------cards----------------------->
+        <div class="row">
+            <div class="service" id="service">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="bg-white pinside40 service-block outline mb30">
+                        <div class="icon mb40">
+                            <img src="images/Capture3.PNG"
+                                 alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                        </div>
+                        <h2><a href="#" class="title">Personal Loan</a></h2>
+                        <p>
+                            Personal loans are sometimes called signature loans or
+                            unsecured loans because there is typically no collateral required to
+                            secure a personal loan.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="bg-white pinside40 service-block outline mb30">
+                        <div class="icon mb40">
+                            <img src="images/Capture1.PNG"
+                                 alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                        </div>
+                        <h2><a href="#" class="title">Home Loan</a></h2>
+                        <p>
+                            Generally taken to either buy a house or a land for constructing a house or renovation, extension
+                            and repairs of the existing house
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="bg-white pinside40 service-block outline mb30">
+                        <div class="icon mb40">
+                            <img src="images/Capture2.PNG" class="icon-svg-2x">
+                        </div>
+                        <h2><a href="#" class="title">Education Loan</a></h2>
+                        <p>
+                            Education loans can be used to cover for academic expenses
+                            during the education period with usually low interest
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="bg-white pinside40 service-block outline mb30">
+                        <div class="icon mb40">
+                            <img src="images/Capture3.PNG"
+                                 alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                        </div>
+                        <h2><a href="#" class="title">Business Loan</a></h2>
+                        <p>
+                            successful application and qualification for this loan category
+                            is necessitated by very important factors,business owner's personal
+                            credit, debt to income ratio of your business, etc.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="bg-white pinside40 service-block outline mb30">
+                        <div class="icon mb40">
+                            <img src="images/Capture1.PNG" class="icon-svg-2x">
+                        </div>
+                        <h2><a href="#" class="title">Car Loan</a></h2>
+                        <p>
+                            unlike personal loans, Car loans are different
+                            in that they are almost
+                            always secured loans, and the collateral is the
+                            vehicle itself.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@* Loan companies section *@
+<div class="section-space80">
+    <div class="container">
+        <div class="row">
+            <div class="offset-xl-2 col-xl-8 offset-md-2 col-md-8 offset-md-2 col-md-8 col-sm-12 col-12">
+                <div class="mb60 text-center section-title">
+                    <!-- section title start-->
+                    <h1>Affordable loans from the best companies who care about you</h1>
+                    <p>
+                        Here are affordable loans from renowned loan companies.
+                    </p>
+                </div>
+                <!-- /.section title start-->
+            </div>
+        </div>
+
+        <!-------------company------------------------------ cards--------------->
+
+        <div class="row">
+            <div class="service" id="service">
+                @foreach (var item in Model.details)
+                {
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="bg-white pinside40 service-block outline mb30 main" style="height: 450px !important;">
+                            <div class="icon mb40">
+                                <img src="images/lydia.PNG"
+                                     alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                            </div>
+                            <h2><a href="#" class="title">@item.CompanyName</a></h2>
+                            <p style="line-height: 2.0; text-align: left">
+                                @item.CompanyDescription
+                            </p>
+                            <a asp-controller="LoanCompany" asp-action="Details" asp-route-Id="@item.Id" class="btn btn-primary">Read More</a>
+                        </div>
+
+
+                    </div>
+                }
+                @*<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="bg-white pinside40 service-block outline mb30" style="height: 450px !important;">
+                <div class="icon mb40">
+                    <img src="images/fast-credit.PNG"
+                         alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                </div>
+                <h2><a href="#" class="title">Fast Credit Nig.</a></h2>
+                <p style="line-height: 2.0; text-align: left">
+                    Sed ut perspiciatis unde omnis rror sit voluptatem accusan tium dolo remque laudantium,
+                    totam rem aperiam, eaque ipsa
+                </p>
+                <a href="#" class="btn btn-primary" style="margin-top: 45px !important">Read More</a>
+            </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="bg-white pinside40 service-block outline mb30" style="height: 450px !important;">
+                <div class="icon mb40">
+                    <img src="images/groffin.PNG"
+                         alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                </div>
+                <h2><a href="#" class="title">Grofin</a></h2>
+                <p style="line-height: 2.0; text-align: left">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elmodo ligula eget dolor. Aenean
+                    massa. Cum sociis natoque
+                </p>
+                <a href="#" class="btn btn-primary" style="margin-top: 40px !important">Read More</a>
+            </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="bg-white pinside40 service-block outline mb30" style="height: 450px !important;">
+                <div class="icon mb40">
+                    <img src="images/kikia.PNG"
+                         alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                </div>
+                <h2><a href="#" class="title">Kikia.co</a></h2>
+                <p style="line-height: 2.0; text-align: left">
+                    Lorem ipsum dolor sit nean commodo ligula eget dolor simple dummyum sociis natoque.amet,
+                    consectetuer adipiscing elit.
+                </p>
+                <a href="#" class="btn btn-primary" style="margin-top: 15px !important">Read More</a>
+            </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="bg-white pinside40 service-block outline mb30" style="height: 450px !important;">
+                <div class="icon mb40">
+                    <img src="images/paylater.PNG"
+                         alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                </div>
+                <h2><a href="#" class="title">PayLater</a></h2>
+                <p style="line-height: 2.0; text-align: left">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                    dolor. Aenean massa. Cum sociis natoque.
+                </p>
+                <a href="#" class="btn btn-primary" style="margin-top: 15px !important">Read More</a>
+            </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="bg-white pinside40 service-block outline mb30" style="height: 450px !important;">
+                <div class="icon mb40">
+                    <img src="images/zedvance.PNG"
+                         alt="Borrow - Loan Company Website Template" class="icon-svg-2x">
+                </div>
+                <h2><a href="#" class="title">ZedVance</a></h2>
+                <p style="line-height: 2.0; text-align: left">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                    dolor. Aenean massa. Cum sociis natoque.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>*@
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------company------------------------------ cards--------------------ends here--------------------------------->
+@* end of loan companies categories  *@
+<div class="bg-white section-space80">
+    <div class="container">
+        <div class="row">
+            <div class="offset-xl-2 col-xl-8 offset-md-2 col-md-8 offset-md-2 col-md-8 col-sm-12 col-12">
+                <div class="mb100 text-center section-title">
+                    <!-- section title start-->
+                    <h1>Fast &amp; Easy Application Process.</h1>
+                    <p>
+                        Suspendisse aliquet varius nunc atcibus lacus sit amet coed portaeri sque mami luctus viveed
+                        congue lobortis faucibus.
+                    </p>
+                </div>
+                <!-- /.section title start-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                <div class="bg-white pinside40 number-block outline mb60 bg-boxshadow">
+                    <div class="circle"><span class="number">1</span></div>
+                    <h3 class="number-title">Choose Loan Amount</h3>
+                    <p>Suspendisse accumsan imperdue ligula dignissim sit amet vestibulum in mollis etfelis.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                <div class="bg-white pinside40 number-block outline mb60 bg-boxshadow">
+                    <div class="circle"><span class="number">2</span></div>
+                    <h3 class="number-title">Approved Your Loan</h3>
+                    <p>Fusce tempor sstibulum varius sem nec mi luctus viverra edcongue lobortis faucibus.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                <div class="bg-white pinside40 number-block outline mb60 bg-boxshadow">
+                    <div class="circle"><span class="number">3</span></div>
+                    <h3 class="number-title">Get Your Cash</h3>
+                    <p>Get your money in minutes simtibulm varius semnec mluctus gue lobortis faucibus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-xl-2 col-xl-8 offset-md-2 col-md-8 offset-md-2 col-md-8 col-sm-12 col-12 text-center">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-default section-space80">
+    <div class="container">
+        <div class="row">
+            <div class="offset-xl-2 col-xl-8 offset-md-2 col-md-8 offset-md-2 col-md-8 col-sm-12 col-12">
+                <div class="mb60 text-center section-title">
+                    <!-- section title start-->
+                    <h1 class="title-white">Some of our Awesome Testimonials</h1>
+                    <p> You won’t be the only one lorem ipsu mauris diam mattises.</p>
+                </div>
+                <!-- /.section title start-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 clearfix ">
+                <div class="testimonial-block mb30">
+                    <div class="bg-white pinside30 mb20">
+                        <p class="testimonial-text">
+                            “I loved the customer service you guys provided me. That was
+                            very nice and patient with questions I had. I would really like definitely come back
+                            here”
+                        </p>
+                    </div>
+                    <div class="testimonial-autor-box">
+                        <div class="testimonial-img pull-left">
+                            <img src="images/testimonial-img.jpg"
+                                 alt="Sagera Loans">
+                        </div>
+                        <div class="testimonial-autor pull-left">
+                            <h4 class="testimonial-name">Donny J. Griffin</h4>
+                            <span class="testimonial-meta">Personal Loan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 clearfix ">
+                <div class="testimonial-block mb30">
+                    <div class="bg-white pinside30 mb20">
+                        <p class="testimonial-text">
+                            “I had a good experience with Insight Loan Services. I am
+                            thankful to insight for the help you guys gave me. My loan was easy and fast. thank you
+                            Insigtht”
+                        </p>
+                    </div>
+                    <div class="testimonial-autor-box">
+                        <div class="testimonial-img pull-left">
+                            <img src="images/testimonial-img-1.jpg"
+                                 alt="Sagera Loans">
+                        </div>
+                        <div class="testimonial-autor pull-left">
+                            <h4 class="testimonial-name">Mary O. Randle</h4>
+                            <span class="testimonial-meta">Education Loan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 clearfix ">
+                <div class="testimonial-block mb30">
+                    <div class="bg-white pinside30 mb20">
+                        <p class="testimonial-text">
+                            “We came out of their offices very happy with their service.
+                            They treated us very kind. Definite will come back. The waiting time was very
+                            appropriate.”
+                        </p>
+                    </div>
+                    <div class="testimonial-autor-box">
+                        <div class="testimonial-img pull-left">
+                            <img src="images/testimonial-img-2.jpg"
+                                 alt="Sagera Loans">
+                        </div>
+                        <div class="testimonial-autor pull-left">
+                            <h4 class="testimonial-name">Lindo E. Olson</h4>
+                            <span class="testimonial-meta">Car Loan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section-space80 bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="offset-xl-2 col-xl-8 offset-md-2 col-md-8 offset-md-2 col-md-8 col-sm-12 col-12">
+                <div class="mb60 text-center section-title">
+                    <!-- section title-->
+                    <h1>We are Here to Help You</h1>
+                    <p>Our mission is to deliver reliable, latest news and opinions.</p>
+                </div>
+                <!-- /.section title-->
+            </div>
+        </div>
+
+
+        <!-- section we are here to help you-->
+        <div class="section-space80">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-xl-2 col-xl-8 offset-lg-2 col-lg-8 offset-md-2 col-md-8 col-sm-12 col-12">
+                        <div class="mb60 text-center section-title">
+                            <!-- section title-->
+                            <h1>We are here to help you</h1>
+                            <p>Our mission is to deliver reliable, latest news and opinions.</p>
+                        </div>
+                        <!-- /.section title-->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="bg-white bg-boxshadow pinside40 outline text-center mb30">
+                            <div class="mb40"><i class="far fa-calendar-alt" style="width: 100px; height: 40px;color: #f51f8a"></i></div>
+                            <h2 class="capital-title">Apply For Loan</h2>
+                            <p>Looking to buy a car or home loan? then apply for loan now.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="bg-white bg-boxshadow pinside40 outline text-center mb30">
+                            <div class="mb40">
+                                <i class="fas fa-phone" style="width: 100px; height: 40px; color: #f51f8a"></i>
+                            </div>
+                            <h2 class="capital-title">Call us at </h2>
+                            <h1 class="text-big">800-123-456 / 789 </h1>
+                            <p>lnfo@loanadvisor.com</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="bg-white bg-boxshadow pinside40 outline text-center mb30">
+                            <div class="mb40">
+                                <i class="fas fa-users" style="width: 100px; height: 40px; color: #f51f8a">
+
+                                </i>
+                            </div>
+                            <h2 class="capital-title">Talk to Advisor</h2>
+                            <p>Need to loan advise? Talk to our Loan advisors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

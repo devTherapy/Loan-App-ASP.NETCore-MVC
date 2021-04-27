@@ -1,0 +1,11 @@
+﻿@{
+    Layout = "_ErrorLayout";
+}
+
+<div class=" container-fluid d-flex justify-content-center flex-column">
+    <h1 class="mt-5">@ViewBag.Message</h1>
+    <h1>😬</h1>
+    <div>
+        <a  asp-controller="Home" asp-action="Index" class="btn btn-primary" role="button">Back To Home</a>
+    </div>
+</div>
